@@ -8,7 +8,7 @@ def train_val_split(val_split):
     Function that creates a new directory with more validation images
     Need to generalise this so that it works for different problems (class names, more than 2 classes etc.)
     :param val_split: number from zero to 1
-    :return:
+    :return:val_v2 directory
     """
     # replace data path with input from yml file!
     data_path = r"C:\Users\leoni\PycharmProjects\Data\Post_ETL"
